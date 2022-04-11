@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FunGrocery | Shopping basket</title>
+	<link rel = "icon" href ="grocery.png" type = "image/x-icon"> 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="shop_style.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/shop_scrolltotop.js"></script>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up"></i></button>
+    <nav class="navbar navbar-expand-md navbar-light bg-white sticky-top">
+    	<div class="container-fluid">
+    		<a href="index.html"><img src="logo-1.png"></a>
+    		<button data-toggle="collapse" data-target="#menu" class="navbar-toggler">
+			    <span><i class="fa fa-bars" aria-hidden="true"></i></span>
+		    </button>
+		    <div class="collapse navbar-collapse nav-list" id="#menu">
+		    	<ul class="navbar-nav ml-auto">
+		    		<li class="nav-item ">
+		    			<a href="index.html" class="nav-link">Home</a>
+		    		</li>
+		    		<li class="nav-item">
+		    			<a href="about.html" class="nav-link" target="_blank">About</a>
+		    		</li>
+		    		<li class="nav-item">
+		    			<a href="store.html" class="nav-link" target="_blank">Store</a>
+		    		</li>
+		    		<li class="nav-item">
+		    			<a href="posting.html" class="nav-link" target="_blank">Blog</a>
+		    		</li>
+		    		<li class="nav-item">
+		    			<a href="contact.html" class="nav-link" target="_blank">Contact Us</a>
+		    		</li>
+		    	</ul>
+                <div class="btn_1">
+        <ul class="navbar-nav ml-4">
+            <li class="nav-item active"><a class="nav-link" href="cart.html"><span class="btn-cart"><i class="fa fa-shopping-basket"></i></span>Shopping Cart<span class="btn-no">0</span></a></li>
+        </ul>
+    </div>
+		    </div>
+    	</div>
+    </nav>
+<div class="product-container">
+	<div class="product-header">
+		<h3 class="product-title">Product</h3>
+		<h3 class="Amount">Price</h3>
+		<h3 class="Quantity">Quantity</h3>
+		<h5 class="total">Total</h5>
+	</div> 
+</div>
+<div class="product">
+	
+</div>
+<script type="text/javascript" src="js/shop_addtocart.js"></script>    
+</body>
+</html>
